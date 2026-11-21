@@ -1,10 +1,4 @@
-# MDTeamGPT 🏥
-
-**A Self-Evolving Multi-Agent Framework for Medical Multi-Disciplinary Team (MDT) Consultations.**
-
-MDTeamGPT leverages Large Language Models (LLMs) to simulate a full medical consultation team. It mitigates context collapse using a **Residual Discussion Structure** and employs a **Self-Evolving Mechanism** via dual knowledge bases (CorrectKB & ChainKB) to accumulate medical experience.
-
-## 📅 Latest Update (2025-12-12)
+ leverages Large Language Models (LLMs) to simulate a full medical consultation team. It mitigates context collapse using a **Residual Discussion Structure** and employs a **Self-Evolving Mechanism** via dual knowledge bases (CorrectKB & ChainKB) to accumulate medical experience.
 
   * **👁️ Multimodal Support:** Added Vision-Language Model (VLM) integration. Specialists can now analyze uploaded medical images (CT, MRI, X-ray) alongside text descriptions in the first consultation round.
   * **🔓 Open-Ended QA:** The system now supports and evaluates complex, free-form diagnostic answers (Open-Ended) rather than just multiple-choice questions.
@@ -19,20 +13,10 @@ MDTeamGPT leverages Large Language Models (LLMs) to simulate a full medical cons
       * **ChainKB:** Stores reflection and error analysis from incorrect diagnoses.
   * **🛡️ Safety & Ethics:** A dedicated reviewer ensures consensus convergence and output safety.
 
-## 🚀 Quick Start
 
-### 1\. Prerequisites
 
-  * Python 3.8+
-  * OpenAI API Key
-
-### 2\. Installation
-
-```bash
-git clone https://github.com/KaiChenNJ/MDTeamGPT.git
-cd MDTeamGPT
 pip install -r requirements.txt
-```
+
 
 ### 3\. Run the System
 
