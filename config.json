@@ -1,0 +1,7 @@
+{
+    "api_key": "#######",
+    "base_url": "https://zzzai.pro/",
+    "text_model": "codex-auto-review",
+    "vl_model": "codex-auto-review",
+    "enable_tools": true
+}
